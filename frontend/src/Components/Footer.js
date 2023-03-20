@@ -56,7 +56,12 @@ const Footer = () => {
         </div>
 
         <div className="flex justify-center text-white">
-          <p className="mb-3">Made with ❤ by mIrfan</p>
+          <p className="mb-3">
+            Made with ❤ by{" "}
+            <a href="https://dev-irfan.vercel.app/" className="underline">
+              mIrfan
+            </a>{" "}
+          </p>
         </div>
       </div>
     </>
