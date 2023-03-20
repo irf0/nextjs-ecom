@@ -1,8 +1,8 @@
-import HeroBanner from "@/Components/HeroBanner";
-import BestSeller from "@/Components/BestSeller";
+import HeroBanner from "../Components/HeroBanner";
+import BestSeller from "../Components/BestSeller";
 import React from "react";
 import { client } from "../../lib/client";
-import SaleBanner from "@/Components/SaleBanner";
+import SaleBanner from "../Components/SaleBanner";
 import Link from "next/link";
 
 //-----------------This is the HomePage-------------------//

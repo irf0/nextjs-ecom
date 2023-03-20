@@ -1,4 +1,4 @@
-import { client } from "lib/client";
+import { client } from "../../lib/client";
 import { createContext, useContext, useState, useEffect } from "react";
 
 const ProductContext = createContext();

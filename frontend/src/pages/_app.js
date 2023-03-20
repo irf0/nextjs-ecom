@@ -1,6 +1,6 @@
 import Layout from "../Components/Layout";
-import { ProductProvider } from "@/context/ProductContext";
-import { StateContext } from "@/context/StateContext";
+import { ProductProvider } from "../context/ProductContext";
+import { StateContext } from "../context/StateContext";
 import { Slide, ToastContainer } from "react-toastify";
 import "../styles/globals.css";
 

@@ -1,4 +1,4 @@
-import { urlFor } from "lib/client";
+import { urlFor } from "../../lib/client";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useRef, useState } from "react";
