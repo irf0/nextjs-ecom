@@ -1,6 +1,6 @@
 import Cart from "../../Components/Cart";
 import MayLike from "../../Components/MayLike";
-import { client, urlFor } from "../../../lib";
+import { client, urlFor } from "../../../lib/client";
 import React, { useState } from "react";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import { HiMinus, HiPlus } from "react-icons/hi";
