@@ -1,5 +1,4 @@
 import { urlFor } from "lib/client";
-import Image from "next/image";
 import Link from "next/link";
 import React, { useRef, useState } from "react";
 import { AiFillCloseCircle, AiOutlineShoppingCart } from "react-icons/ai";
@@ -57,9 +56,9 @@ const Cart = () => {
               <h1 className="font-bold">({totalCartQuantity} items)</h1>
             </div>
             {cartItems.map((item) => (
-              <div className="relative" key={item._id}>
+              <div className="relative">
                 <div className="flex">
-                  <Image
+                  <img
                     key={item._id}
                     src={urlFor(item?.image)}
                     alt={item.name}
